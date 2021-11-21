@@ -1,59 +1,113 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background-color: rgb(182, 135, 101);
-	font-family: serif;
-	text-align: center;
+	background-color: hsl(217, 54%, 11%);
+	font-size: 18px;
+  font-family: 'Outfit';
+	width: 100%;
 }
 
-div.notify {
+.card-BG {
+	background-color: hsl(215, 50%, 16%);
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 100px;
+	width: 350px;
+	padding: 0px;
+	border-radius: 10px;
+	height: 600px;
 	position: relative;
-	margin-bottom: 25px;
-}
-
-span.material-icons {
-	color: wheat;
-	font-size: 60px;
-	position: absolute;
-	top: 210px;
-	left: 300px;
-}
-
-h1 {
-	color: saddlebrown;
-}
-
-p {
-	color: rgb(182, 135, 101);
-}
-
-p.notify-number {
-	background-color: wheat;
-	width: 12px;
-	height: 12px;
-	font-size: 12px;
-	border-radius: 50%;
-	position: absolute;
-	border: 3px solid rgb(182, 135, 101);
-	top: 206px;
-	left: 334px;
+	overflow: hidden;
+	box-shadow: 0 0 10px black;
 }
 
 .container {
-	background-color: wheat;
-	width: 400px;
-	border-radius: 20px;
+	margin: 30px 30px;
+}
+
+img.gem {
+	display: block;
+  margin-left: 0;
+  margin-right: 0;
+	height: auto;
+	box-shadow: 0 0 2px black;
+  width: 100%;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	color: hsl(0, 0%, 100%);
+	margin-bottom: 15px;
+}
+
+p {
+	margin-bottom: 20px;
+	color: hsl(215, 51%, 70%);
+}
+
+.blue {
 	position: absolute;
-	top: 300px;
-	left: 140px;
+	right: 40px;
+	color: hsl(215, 51%, 70%);
 }
 
-.content {
-	border-bottom: 2px solid white;
+.left {
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+.cyan {
+	color: hsl(178, 100%, 50%);
+	padding-bottom: 5px;
+	position: absolute;
+	left: 25px;
+	margin-left: 25px;
 }
 
-.content2 {
-	padding-bottom: 1px;
+.boy {
+	margin-top: 15px;
+	width: 42px;
+	position: relative;
+	bottom: -10px;
 }
 
-.norms {
+.man {
+	color: hsl(215, 51%, 70%);
+	position: absolute;
+	bottom: 40px;
+	left: 100px;
+}
+
+.white {
+	color: white;
+}
+
+@media screen and (max-width: 375px){
+	body {
+		background-color: hsl(217, 54%, 11%);
 	font-size: 18px;
+  font-family: 'Outfit';
+	width: 100%;
+	height: auto;
+	}
+
+	.card-BG {
+		background-color: hsl(215, 50%, 16%);
+		margin-top: 100px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 50px;
+		width: 350px;
+		padding: 0px;
+		border-radius: 10px;
+		height: 600px;
+		position: relative;
+		overflow: hidden;
+		box-shadow: 0 0 10px black;
+	}
 }
